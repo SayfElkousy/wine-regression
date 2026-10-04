@@ -1,0 +1,62 @@
+{
+  "rows": 6497,
+  "columns": 13,
+  "features": [
+    "fixed acidity",
+    "volatile acidity",
+    "citric acid",
+    "residual sugar",
+    "chlorides",
+    "free sulfur dioxide",
+    "total sulfur dioxide",
+    "density",
+    "pH",
+    "sulphates",
+    "alcohol",
+    "wine_type"
+  ],
+  "missing_values": {
+    "fixed acidity": 0,
+    "volatile acidity": 0,
+    "citric acid": 0,
+    "residual sugar": 0,
+    "chlorides": 0,
+    "free sulfur dioxide": 0,
+    "total sulfur dioxide": 0,
+    "density": 0,
+    "pH": 0,
+    "sulphates": 0,
+    "alcohol": 0,
+    "quality": 0,
+    "wine_type": 0
+  },
+  "duplicate_rows": 1177,
+  "quality_distribution": {
+    "3": 30,
+    "4": 216,
+    "5": 2138,
+    "6": 2836,
+    "7": 1079,
+    "8": 193,
+    "9": 5
+  },
+  "wine_type_distribution": {
+    "white": 4898,
+    "red": 1599
+  },
+  "dtypes": {
+    "fixed acidity": "float64",
+    "volatile acidity": "float64",
+    "citric acid": "float64",
+    "residual sugar": "float64",
+    "chlorides": "float64",
+    "free sulfur dioxide": "float64",
+    "total sulfur dioxide": "float64",
+    "density": "float64",
+    "pH": "float64",
+    "sulphates": "float64",
+    "alcohol": "float64",
+    "quality": "int64",
+    "wine_type": "int64"
+  }
+}
